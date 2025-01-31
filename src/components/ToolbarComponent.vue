@@ -17,11 +17,11 @@
       <input type="range" min="1" max="50" name="" id="" class="w-full cursor-pointer">
     </div>
     <div class="flex flex-col gap-2">
-  <button class="flex gap-2 bg-red-100 w-30 text-red-500 rounded-md px-3 py-2 cursor-pointer" title="Nettoyer">
+  <button class="flex gap-2 bg-red-100 w-full text-red-500 rounded-md px-3 py-2 cursor-pointer" title="Nettoyer">
     <RotateCcw :size="20" color="red" />
     Nettoyer
   </button>
-  <button class="flex gap-2 bg-blue-100 w-30 text-blue-500 rounded-md px-3 py-2 cursor-pointer" title="Enregistrer">
+  <button class="flex gap-2 bg-blue-100 w-full text-blue-500 rounded-md px-3 py-2 cursor-pointer" title="Enregistrer">
     <Download :size="20" />
     Enregistrer
   </button>
