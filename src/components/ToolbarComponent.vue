@@ -8,24 +8,25 @@
         <Eraser :size="30" />
       </button>
     </div>
-    <div>
-      <label for="">Couleur</label>
+    <div class="space-y-2">
+      <label class="text-sm text-gray-700 font-medium block" for="">Couleur</label>
       <input type="color" name="" id="">
     </div>
     <div>
-      <label for="">Epaisseur</label>
+      <label class="text-sm text-gray-700 font-medium block" for="">Epaisseur</label>
       <input type="range" min="1" max="50" name="" id="">
     </div>
-    <div class="flex-1 flex-row mb-1 h-full">
-      <button class="flex gap-2 bg-red-100 text-red-500" title="Nettoyer">
-        <RotateCcw :size="20" color="red" />
-        Nettoyer
-      </button>
-      <button class="flex gap-2 bg-blue-100 text-blue-500" title="Enregistrer">
-        <Download :size="20" />
-        Enregistrer
-      </button>
-    </div>
+    <div class="flex flex-col gap-2">
+  <button class="flex gap-2 bg-red-100 w-30 text-red-500 rounded-md px-3 py-2" title="Nettoyer">
+    <RotateCcw :size="20" color="red" />
+    Nettoyer
+  </button>
+  <button class="flex gap-2 bg-blue-100 w-30 text-blue-500 rounded-md px-3 py-2" title="Enregistrer">
+    <Download :size="20" />
+    Enregistrer
+  </button>
+</div>
+
   </div>
 </template>
 
