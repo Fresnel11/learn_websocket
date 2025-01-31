@@ -5,7 +5,7 @@
     <div class="w-[25%] border-2 border-red-500">
       <ToolbarComponent />
     </div>
-    <div class="flex-1 border-2 border-red-500 w-[75%]">
+    <div class="flex-1  w-[85%]">
       <CanvasComponent />
     </div>
   </div>
