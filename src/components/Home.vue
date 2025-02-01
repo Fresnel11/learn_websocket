@@ -2,7 +2,7 @@
   <!-- <div class="text-3xl font-bold text-teal-400 underline cursor-pointer"> Hello Tailwind CSS!</div> -->
   <!-- <UserPen :size="50" /> -->
   <div class="flex gap-4 w-full h-screen">
-    <div class="w-[25%] border-2 border-red-500">
+    <div class="w-[25%] ">
       <ToolbarComponent />
     </div>
     <div class="flex-1  w-[85%]">
